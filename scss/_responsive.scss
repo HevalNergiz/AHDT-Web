@@ -1,0 +1,382 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	.dropdown i{
+		display: none;
+	}
+    
+
+}
+
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-nav ul {
+    margin-left: 0px;
+  }
+
+ 
+
+.navbar-toggler{
+    background: $white;
+}
+   .team-block {
+    margin-top: 30px;
+     img {
+        width: 100%;
+      }
+  }
+
+  .package{
+    margin-bottom: 30px;
+  }
+
+  .section-page{
+        margin-top: 100px;
+    }
+    .pricing-btn{
+        margin-bottom: 40px;
+    }
+
+  .cta-img .img-2 {
+    left: 0px;
+    }
+
+
+    .blog-box{
+        margin-bottom: 40px;
+    }
+
+    .cta-content{
+        h2{
+            font-size: 24px;
+        }
+    }
+
+     nav.navbar.transparent-black.top-nav-collapse {
+        background-color: #12114a;
+
+        .nav-link{
+            color: $white!important;
+        }
+    }
+     nav.navbar.transparent-white.top-nav-collapse {
+        background-color: #12114a;
+        .nav-link{
+            color: $white!important;
+        }
+    }
+
+    .navbar-collapse{
+        background-color: #12114a;
+        padding: 20px;
+        .nav-link{
+            color: $white!important;
+        }
+    }
+}
+
+/* Small Devices Potrait */
+/* Extra Small Devices, Phones */
+@media (min-width: 480px) and (max-width: 767px) {
+   .transparent-black {
+    background: #ffffff;
+    padding: 20px;
+
+    .logo-w{
+        display: none;
+      }
+  }
+
+
+
+  .main-nav ul {
+    margin-left: 0px;
+  }
+
+  .section-page{
+        margin-top: 100px;
+    }
+
+  #section-counters {
+    padding-top: 0px;
+  }
+  .about-block-box {
+    margin-bottom: 25px;
+  }
+  .about-block-box img {
+    width: 100%;
+  }
+  .event-text {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .team-block {
+    margin-top: 30px;
+     img {
+        width: 100%;
+      }
+  }
+  .video {
+    display: none;
+  }
+  .video-content {
+    width: 95%;
+    padding-bottom: 90px;
+    margin-top: 40px;
+  }
+  #section-feature h2 span {
+    display: inline;
+  }
+  .pricing-block {
+    margin-bottom: 40px;
+  }
+  .pricing-block ul {
+    margin-top: 80px;
+  }
+  #section-blog .blog-post {
+    margin-bottom: 30px;
+  }
+  #section-blog .blog-post img {
+    width: 100%;
+  }
+  .sub-form {
+    padding: 0px 20px;
+  }
+  .top-bar {
+    display: none;
+  }
+  .widget, .speaker-box {
+    margin-top: 25px;
+  }
+  .cta-img .img-2 {
+    display: none;
+  }
+  .cta-text {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .package, .blog-box {
+    margin-bottom: 30px;
+  }
+  #section-sponsor {
+    margin-top: 0px;
+  }
+  .sponsors-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #section-page {
+    margin-top: 0px;
+  }
+
+  .pricing-btn{
+    margin-bottom: 40px;
+  }
+
+  .cta-content{
+        h2{
+            font-size: 18px;
+        }
+    }
+
+    .speaker-block {
+        img{
+            width: 100%;
+        }
+    }
+
+    .navbar-toggler{
+        background: $white;
+    }
+
+    #section-countdown{
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .countdown{
+        position: relative;
+        margin-top: 0px;
+    }
+
+     nav.navbar.transparent-black.top-nav-collapse {
+        background-color: #12114a;
+
+        .nav-link{
+            color: $white!important;
+        }
+    }
+     nav.navbar.transparent-white.top-nav-collapse {
+        background-color: #12114a;
+
+        .nav-link{
+            color: $white!important;
+        }
+    }
+
+    .navbar-collapse{
+        background-color: #12114a;
+        padding: 20px;
+        .nav-link{
+            color: $white!important;
+        }
+    }
+
+     .banner-form{
+      box-shadow: none;
+      margin-bottom: 50px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media (min-width: 320px) and (max-width: 478px) {
+  .transparent-black {
+    background: #ffffff;
+    padding: 20px;
+
+    .logo-w{
+        display: none;
+      }
+  }
+
+
+  .main-nav ul {
+    margin-left: 0px;
+  }
+  .top-bar {
+    display: none;
+  }
+  .lg-title {
+    font-size: 36px;
+  }
+  .event-text {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  .team-block {
+    margin-top: 30px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  .core-schedule::before {
+    display: none;
+  }
+  .core-schedule h6 {
+    margin-left: 0px;
+  }
+  .video {
+    margin-bottom: 30px;
+    display: none;
+  }
+  .video a {
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .video-content {
+    width: 100%;
+    padding-bottom: 90px;
+  }
+  #section-feature h2 span {
+    display: inline;
+  }
+  .sponsors-wrap {
+    padding: 20px;
+  }
+  .blog-post {
+    margin-bottom: 30px;
+  }
+  .pricing-block {
+    margin-bottom: 30px;
+  }
+  .sub-bg {
+    box-shadow: none;
+  }
+  #section-counters {
+    padding-top: 0px;
+  }
+  .top-bar {
+    display: none;
+  }
+  .widget, .speaker-box {
+    margin-top: 25px;
+  }
+  .cta-img .img-2 {
+    display: none;
+  }
+  .cta-text {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .package, .blog-box {
+    margin-bottom: 30px;
+  }
+  #section-sponsor {
+    margin-top: 0px;
+  }
+  .sponsors-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #section-page {
+    margin-top: 0px;
+  }
+
+  .cta-content{
+        h2{
+            font-size: 18px;
+        }
+    }
+
+    .speaker-block {
+        img{
+            width: 100%;
+        }
+    }
+
+    .navbar-toggler{
+        background: $white;
+    }
+
+    #section-countdown{
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .countdown{
+        position: relative;
+        margin-top: 0px;
+    }
+
+     nav.navbar.transparent-black.top-nav-collapse {
+        background-color: #12114a;
+        .nav-link{
+            color: $white!important;
+        }
+    }  
+    nav.navbar.transparent-white.top-nav-collapse {
+        background-color: #12114a;
+        .nav-link{
+            color: $white!important;
+        }
+    }
+
+    .navbar-collapse{
+        background-color: #12114a;
+        padding: 20px;
+        .nav-link{
+            color: $white!important;
+        }
+    }
+
+    .banner-form{
+      box-shadow: none;
+      margin-bottom: 50px;
+    }
+}

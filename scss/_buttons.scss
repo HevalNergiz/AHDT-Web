@@ -1,0 +1,81 @@
+.btn {
+  line-height: 2rem;
+    border: 2px solid $border-color;
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all .7s ease;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    font-size: 14px;
+}
+
+
+.btn-rounded{
+  border-radius: 25px;
+}
+
+.btn-hero{
+  background: $primary-color;
+  color: $white;
+  border-color: $primary-color;
+
+  &:hover{
+    background: $black;
+      border-color:$black;
+      color:$white;
+  }
+}
+
+.btn-dark-outline:hover{
+  @extend .btn-hero;
+}
+
+.btn-outline-hero{
+    &:hover{
+        border-color: $primary-color;
+    }
+}
+
+.btn-hero-trans {
+  background: transparent;
+  color: $black;
+    border-color:$primary-color;
+  &:hover{
+     background: $primary-color;
+      border-color: $primary-color;
+      color: $white;
+  }
+}
+
+
+.btn-secondary {
+  background: $secondary-color;
+  border-color: $secondary-color;
+  color: $white;
+  &:hover{
+    background: $black;
+    color: $white;
+  }
+}
+.btn-secondary-trans {
+  background: $secondary-trans;
+  border-color: $secondary-trans;
+  color: $black;
+  &:hover{
+    background: $secondary-color;
+   border-color: $secondary-color;
+      color: $white;
+  }
+}
+
+.btn-grey{
+  background:#fff;
+  border:1px solid $border-color;
+
+  &:hover{
+    background: $primary-color;
+    color: $white;
+    border-color: $primary-color;
+  }
+}

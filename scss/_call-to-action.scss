@@ -1,0 +1,27 @@
+#ct-action{
+	background: url("../images/bg/cta-bg.jpg")fixed 50% 50%;
+	background-size: cover;
+	padding: 120px 0px;
+	position: relative;
+
+	h2{
+		font-size: 43px;
+		color: $white;
+		font-family: $lg-font;
+		text-transform: uppercase;
+	}
+	p{
+		margin: 20px 0px 30px;
+		color: $gray-light;
+	}
+
+	&:before{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgba(0,0,0,0.8);
+		width: 100%;
+		height: 100%;
+		content: '';
+	}
+}

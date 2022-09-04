@@ -1,0 +1,70 @@
+.section{
+    padding: 90px 0px;
+}
+
+.section-top{
+    padding-top: 90px;
+}
+
+.section-bottom{
+    padding-bottom: 90px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.section-heading{
+    margin-bottom: 75px;
+
+    p{
+      margin-top: 20px;
+    }
+}
+
+.read-more{
+    color: $primary-color;
+    transition: all .7s ease;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    
+    i{
+        padding-left: 10px;
+        transition: all .7s ease;
+    }
+    
+    &:hover{
+        color: $secondary-color;
+    }
+    &:hover i{
+        padding-left: 20px;
+    }
+}
+
+
+.form-control {
+    border-color: $border-color;
+    height:55px;
+    padding-left:20px;
+  }
+
+  .form-control:focus,
+  .form-control:hover,
+  .form-control:active{
+      box-shadow: none;
+      border-color:$primary-color;
+  }
+
+  
+.bg-secondary{
+    background: $secondary-color!important;
+}
+
+
+.bg-primary{
+    background: $primary-color!important;
+}
+
+.content-padding{
+    padding: 220px 0px 200px 0px;
+}

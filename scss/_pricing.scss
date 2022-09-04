@@ -1,0 +1,93 @@
+
+
+#pricing-2{
+    background: url("../images/banner/bg-3.jpg");
+    background-size: cover;
+}
+.package{
+    text-align: center;
+    background: $white;
+    border: 1px solid $secondary-trans;
+    padding: 60px 0px;
+    border: 10px solid $primary-trans;
+
+
+    i{
+        font-size: 60px;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        background: #ebedfc;
+        display: block;
+        margin: 0 auto 30px;
+        border-radius: 100%;
+        padding-top: 10px;
+    }
+    ul{
+        margin-top:40px;
+        padding-top:20px;
+        border-top: 1px solid $border-color;
+        margin-bottom:30px;
+    }
+    ul li{
+        padding: 7px 0px;
+        text-transform: uppercase;
+        letter-spacing:1px;
+        color: $black;
+    }
+
+    .pname{
+        text-transform: capitalize
+    }
+
+    h2{
+        color: $secondary-color;
+        font-size: 60px;
+        font-family:$lg-font;
+    }
+
+    .line-through{
+        text-decoration: line-through;
+    }
+}
+
+
+
+#section-pricing{
+    position: relative;
+
+    &:before{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background: url("../images/dots.png") repeat;
+        width: 50%;
+        height: 100%;
+        content: "";
+        opacity: .06;
+    }
+
+    .pricing-block{
+        border-radius: 0px;
+        background: $white;
+        border: 1px solid #eee;
+        position: relative;
+        background: rgba(247, 247, 247, 0.9);
+        padding-bottom: 60px!important;
+
+        i{
+            font-size: 16px;
+            color: $primary-color;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+    }
+
+     .pricing-btn{
+        margin-top: -30px;
+        position: relative;
+        margin-left: 40px;
+    }
+}

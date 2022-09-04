@@ -1,0 +1,305 @@
+// Navigation Styles
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 700;
+    color: $secondary-color;
+}
+
+.main-navigation{
+    padding: 40px 0px 15px 0px;
+    border-bottom: 1px solid $border-color;
+    transition: all .7s linear;
+
+    .nav-link{
+        font-size: 16px;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        text-transform: capitalize;
+        font-weight: 700;
+        letter-spacing: .5px
+    }
+
+    .btn{
+        background: transparent;
+        color: $black;
+        border-color: $primary-color;
+    }
+}
+
+
+
+.btn-sm{
+    padding: 5px 18px;
+    border-radius: 50px;
+}
+
+
+
+@media (min-width: 768px) {
+    .top-nav-collapse {
+        text-shadow: none;
+        border-color: transparent;
+        background-color: $white;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        transition: all .2s ease;
+
+
+    }
+}
+
+
+/*---------- Transparent Navigation With Black Text Color ----------*/
+
+@media (min-width: 768px) {
+    nav.navbar.transparent-black {
+        border-bottom:1px solid rgba(0,0,0,0.03);
+
+        li a {
+            color: $black!important;
+            letter-spacing: 1.5px;
+        }
+    }
+    nav.navbar.transparent-black .logo-light {
+        display: none;
+    }
+    nav.navbar.transparent-black .logo-dark {
+        display: initial;
+    }
+}
+
+.transparent-black .navbar-nav>li>a {
+    color: $black;
+}
+
+.transparent-black .navbar-nav>li>a:hover {
+    color: $black;
+}
+
+.transparent-black .navbar-nav>li>a:focus {
+    color: $black;
+}
+
+.transparent-black.navbar .navbar-toggle .icon-bar {
+    background-color: $black;
+}
+
+
+
+// White navigation
+@media (min-width: 768px) {
+    nav.navbar.transparent-white {
+        background-color: transparent;
+        box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.3)!important;
+        padding: 20px 0px;
+
+        li a {
+            color: $white!important;
+        }
+
+         .b-logo {
+            display: block;
+        }
+
+        .w-logo{
+            display: none;
+        }
+    }
+   
+    nav.navbar.transparent-white.top-nav-collapse {
+        background-color: #12114a;
+        box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08)!important;
+
+        li a {
+            color: $white;
+        }
+
+        .b-logo {
+            display: none;
+        }
+        .w-logo {
+            display: block;
+        }
+    } 
+
+
+     nav.navbar.transparent-black{
+        .logo-w{
+            display: none;
+        }
+     }
+
+     nav.navbar.transparent-black.top-nav-collapse {
+        background-color: #12114a;
+        box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08)!important;
+
+
+        .nav-link{
+            color: $white!important;
+        }
+
+        .btn{
+            background: $white;
+        }
+        .logo-w{
+            display: block;
+            margin-left: -20px;
+        }
+
+        .logo-b{
+            display: none;
+        }
+
+    }
+}
+
+.transparent-white .navbar-nav>li>a {
+    color: $black;
+}
+
+.transparent-white .navbar-nav>li>a:hover {
+    color: $black;
+}
+
+.transparent-white .navbar-nav>li>a:focus {
+    color: $black;
+}
+
+.transparent-white.navbar {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08)!important;
+
+    .logo-b {
+        display: none;
+    }
+
+     .logo-white {
+        display: block;
+    }
+}
+
+.transparent-white.navbar .navbar-toggle .icon-bar {
+    background-color: $black;
+}
+
+.main-nav2 {
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+    .navbar-nav .nav-link {
+        padding-right: 1.4rem;
+        text-transform: capitalize;
+        color: $white;
+        font-weight: 400;
+        letter-spacing: .5px;
+    }
+}
+
+
+.inner{
+    position: relative;
+    padding-left: 55px;
+
+    i{
+        width: 40px;
+        height:40px;
+        background: $primary-trans;
+        border-radius: 100%;
+        text-align: center;
+        background: #fff;
+        color: $primary-color;
+        padding-top: 12px;
+        position: absolute;
+        left: 0px;
+        top: 7px;
+    }
+    span{
+        font-size: 14px;
+        color: $gray-light;
+    }
+
+    h4{
+        color: $white;
+        line-height: 20px;
+    }
+}
+
+
+
+
+.main-nav{
+    padding: 20px 0px;
+    ul {
+        margin-left: 50px;
+
+        li a{
+            font-size:16px;
+        }
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    color: $black;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.navbar-expand-lg.onepage-nav .navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    color: $black;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+
+
+.dropdown{
+    position: relative;
+
+    .dropdown-menu{
+        background: $white;
+        width: 220px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 10;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+        border: 0px;
+
+        .dropdown-item{
+            color: $black!important;
+            padding: 10px 20px;
+            border-bottom:1px solid #eee;
+
+            &:hover{
+                color: $primary-color!important;
+            }
+        }
+
+        .dropdown-item:last-child{
+            border-bottom: 0px;
+        }
+    }
+
+    &:hover .dropdown-menu{
+        opacity: 1;
+        visibility:visible;
+    }
+
+   
+}
+
+.dropdown-toggle::after{
+    display: none;
+}

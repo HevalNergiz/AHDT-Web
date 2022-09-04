@@ -1,0 +1,61 @@
+#section-cta{
+	position: relative;
+	.video{
+		position: absolute;
+		background: url("../images/about/bg-1.jpg");
+		background-size: cover;
+		left: 0px;
+		top: 0px;
+		width: 48%;
+		height: 100%;
+
+		a{
+			display: block;
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			text-align: center;
+			background: #fff;
+			border-radius: 100%;
+			padding-top: 40px;
+			font-size: 40px;
+			margin: 0 auto;
+			top: 50%;
+			margin-top: -50px;
+			left: 50%;
+			margin-left: -50px;
+			color: $primary-color;
+			box-shadow:0px 16px 32px 0px rgba(188, 188, 188, 0.2);
+		}
+	}
+
+}
+
+.video-content{
+	width: 100%;
+	a.btn{
+		margin-top: 10px;
+	}
+}
+
+
+
+.cta-img {
+	.img-2{
+		position: absolute;
+		left: -92px;
+		width: 85%;
+		text-align: 40%;
+		top: 26%;
+		border: 10px solid #fff;
+	}
+}
+
+.cta-text{
+	padding-right: 120px;
+
+	h6{
+		margin-bottom: 20px;
+	}
+}
+

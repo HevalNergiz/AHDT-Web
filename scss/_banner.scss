@@ -1,0 +1,106 @@
+#section-banner{
+	background:url("../images/banner/banner-2.jpg") 50% 0%;
+	background-size:cover;
+}
+	
+
+.banner-area{
+	padding:327px 0px 150px;
+	h6{
+		margin-bottom: 20px;
+		margin-left: 5px;
+	}
+	h2{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+#banner-2{
+	background:url("../images/banner/banner-3.jpg") 50% 40%;
+	background-size:cover;
+	position: relative;
+
+
+	&:before{
+		position: absolute;
+		content:"";
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+	}
+}
+
+
+
+.banner-content{
+	padding: 245px 0px 200px;
+	h1{
+		color: $white;
+		
+	}
+}
+
+
+#banner-3{
+	background:url("../images/banner/banner-6.jpg") 50% 40%;
+	background-size:cover;
+	position: relative;
+
+
+	.banner-img{
+		img{
+			box-shadow: rgba(22, 53, 76, 0.08) 0px 7px 25px 0px;
+			border-radius: 5px;
+			border: 9px solid $white;
+		}
+	}
+
+	.banner-content-2{
+		.subtitle{
+			background: $primary-trans;
+		}
+
+		h1{
+			font-size: 65px;
+			font-weight: 600;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+
+.banner-form{
+	text-align: center;
+	box-shadow: rgba(22, 53, 76, 0.08) 0px 7px 25px 0px;
+	background:$white;
+	padding: 60px;
+	border-top:10px solid $primary-color;
+}
+
+
+.top-bar{
+	border-bottom:1px solid rgba(0,0,0,0.04);
+	font-size: 15px;
+	
+	.top-location{
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+
+	span{
+		font-weight: 600;
+		margin-right: 5px;
+	}
+	ul{
+		margin-bottom: 0px;
+		li{
+			margin-left: 25px;
+		    border-right: 1px solid rgba(0,0,0,0.04);
+		    padding: 12px 30px 12px 0px;
+		}
+	}
+}

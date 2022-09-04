@@ -1,0 +1,76 @@
+
+
+#section-sponsor{
+	margin-top:-200px;
+	position:relative;
+	background:url("../images/banner/banner5.jpg");
+	background-size:cover;
+	position:relative;
+	overflow:hidden;
+	
+}
+.sponsors-wrap{
+	
+}
+
+.sponsors-wrap{
+	a{
+	    display: inline-block;
+		margin: 0px 5px 10px 0px;
+		padding: 40px 50px;
+	}
+}
+
+
+
+#sponsor{
+	background:url("../images/call-to-action-bg.jpg");
+	background-size:cover;
+	position: relative;
+
+
+	&:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-image: -webkit-linear-gradient(306deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
+		background-image: -o-linear-gradient(306deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
+		background-image: linear-gradient(144deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
+		width: 100%;
+		height: 100%;
+		content: '';
+		opacity: 0.902;
+	}
+	
+	.single-sponsor{
+		text-align: center;
+		margin: 5px;
+		box-shadow:0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+
+
+		a{
+			display: block;
+			text-align: center;
+		}
+		img{
+			max-height:50px;
+		}
+
+		p{
+			margin-bottom: 0px;
+		}
+	}
+
+}
+
+#section-partners{
+	margin-bottom: -60px;
+	position: relative;
+	padding-top: 90px;
+	z-index: 1;
+}
+.partner-img{
+	background: #eee;
+	text-align: center;
+	margin-bottom: 30px;
+}
