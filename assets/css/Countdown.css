@@ -119,7 +119,7 @@ footer .container ul.list-inline svg {
 }
 
 .hakkimizda #mainNav {
-  background-color: rgba(255,255,255,0.4)!important;
+  background-color: rgba(255,255,255,0.5)!important;
 }
 
 .hakkimizda #mainNav.navbar-dark .navbar-nav > li.nav-item > a.nav-link {
@@ -127,8 +127,8 @@ footer .container ul.list-inline svg {
 }
 
 #mainNav {
-  /*backdrop-filter: blur(5px);*/
-  /*-webkit-backdrop-filter: blur(5px);*/
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .photo-gallery img {
