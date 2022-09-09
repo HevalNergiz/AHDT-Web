@@ -114,3 +114,35 @@ footer .container ul.list-inline svg {
   }
 }
 
+.hakkimizda #mainNav {
+  background-color: rgba(255,255,255,0.4)!important;
+}
+
+.hakkimizda #mainNav.navbar-dark .navbar-nav > li.nav-item > a.nav-link {
+  color: #000;
+}
+
+#mainNav {
+  /*backdrop-filter: blur(5px);*/
+  /*-webkit-backdrop-filter: blur(5px);*/
+}
+
+.photo-gallery img {
+  border-radius: 1rem;
+  min-width: 100%;
+}
+
+.photonundivi {
+  height: 12rem;
+  border-radius: 1rem;
+  background-position: center center;
+  background-size: cover;
+}
+
+.photonundivi2 {
+  height: 12rem;
+  border-radius: 1rem;
+  background-position: center center;
+  background-size: cover;
+}
+
