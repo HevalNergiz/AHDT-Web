@@ -107,6 +107,10 @@ footer .container ul.list-inline svg {
   height: 50vh;
 }
 
+.parent2 {
+  height: 40vh;
+}
+
 @media (min-width: 576px) {
   .bilgisayardapy-5 {
     padding-top: 3rem;
@@ -144,5 +148,17 @@ footer .container ul.list-inline svg {
   border-radius: 1rem;
   background-position: center center;
   background-size: cover;
+}
+
+.hakkimizda .beyazlogo {
+  display: none;
+}
+
+.siyahlogo {
+  display: none;
+}
+
+.hakkimizda .siyahlogo {
+  display: block;
 }
 

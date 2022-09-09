@@ -22,14 +22,14 @@
 
 <body class="hakkimizda" style="/*background: url(&quot;design.jpg&quot;);*/background-position: 0 -60px;font-family: 'Montserrat';background: url(&quot;assets/img/pattern-bg.svg&quot;) , #fbfbfb;">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top navbar-shrink py-3" id="mainNav">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img class="me-2" src="assets/img/logo.png" style="max-width: 3.5rem;"><img src="assets/img/image5.png" style="max-width: 3.5rem;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img class="me-2 beyazlogo" src="assets/img/logoo.png" style="max-width: 3.5rem;"><img class="me-2 siyahlogo" src="assets/img/logo.png" style="max-width: 3.5rem;"><img src="assets/img/image5.png" style="max-width: 3.5rem;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
-                    <li class="nav-item"><a class="nav-link">Hakkımızda</a></li>
-                    <li class="nav-item"><a class="nav-link">Etkinliklerimiz</a></li>
-                    <li class="nav-item"><a class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link">iletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="etkinlikler.html">Etkinliklerimiz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">iletişim</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="farazi.html">Farazi Dava Yarışması</a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="row mb-4 mb-lg-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <p class="fw-bold mb-2" style="color: #ce4109;">Yarışma</p>
-                    <h3 class="fw-bold">10. Mekteb-i Adliye Farazi Dava Yarışması</h3>
+                    <h2 class="fw-bold">10. Mekteb-i Adliye Farazi Dava Yarışması</h2>
                 </div>
             </div>
             <div style="max-width: 900px;margin: auto;line-height: 30px;font-family: 'Montserrat';">
@@ -79,11 +79,11 @@
                                 </div>
                                 <div class="col order-first">
                                     <div>
-                                        <form class="p-3 p-xl-4" method="post">
-                                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="university" placeholder="Üniversite"></div>
-                                            <div class="mb-3"><input class="form-control" type="text" id="name-2" name="team" placeholder="Takım Adı"></div>
-                                            <div class="mb-3"><input class="form-control" type="text" id="name-4" name="name" placeholder="Ad Soyad"></div>
-                                            <div class="mb-3"><select class="form-select" name="sinif">
+                                        <form class="p-3 p-xl-4" data-bss-recipient="88abc517a0f23e8d57139ac8a19a3c2a">
+                                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="university" placeholder="Üniversite" required=""></div>
+                                            <div class="mb-3"><input class="form-control" type="text" id="name-2" name="team" placeholder="Takım Adı" required=""></div>
+                                            <div class="mb-3"><input class="form-control" type="text" id="name-4" name="name" placeholder="Ad Soyad" required=""></div>
+                                            <div class="mb-3"><select class="form-select" name="sinif" required="">
                                                     <optgroup label="Sınıf">
                                                         <option value="hazirlik" selected="">Hazırlık</option>
                                                         <option value="1">1. Sınıf</option>
@@ -92,8 +92,8 @@
                                                         <option value="4">4. Sınıf</option>
                                                     </optgroup>
                                                 </select></div>
-                                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
-                                            <div class="mb-3"><input class="form-control" type="tel" placeholder="Telefon" name="phone"></div>
+                                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" required=""></div>
+                                            <div class="mb-3"><input class="form-control" type="tel" placeholder="Telefon" name="phone" required=""></div>
                                             <div><button class="btn btn-primary d-block w-100" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Gönder</button></div>
                                         </form>
                                     </div>
@@ -145,11 +145,11 @@
     <footer class="text-center">
         <div class="container text-muted py-4 py-lg-5">
             <ul class="list-inline">
-                <li class="list-inline-item me-4"><a href="#">Anasayfa</a></li>
-                <li class="list-inline-item me-4"><a href="#">Hakkımızda</a></li>
-                <li class="list-inline-item me-4"><a href="#">Etkinliklerimiz</a></li>
-                <li class="list-inline-item me-4"><a href="#">Blog</a></li>
-                <li class="list-inline-item me-4"><a href="#">İletişim</a></li>
+                <li class="list-inline-item me-4"><a href="index.html">Anasayfa</a></li>
+                <li class="list-inline-item me-4"><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li class="list-inline-item me-4"><a href="etkinlikler.html">Etkinliklerimiz</a></li>
+                <li class="list-inline-item me-4"><a href="iletisim.html">İletişim</a></li>
+                <li class="list-inline-item me-4"><a href="farazi.html">Farazi Dava Yarışması</a></li>
             </ul>
             <ul class="list-inline">
                 <li class="list-inline-item me-4"><a href="https://instagram.com/ankarahukukdusuncetoplulugu?igshid=MjYwOTI2ZmM=" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
@@ -177,6 +177,7 @@
                         </svg></a></li>
             </ul>
             <p class="mb-0">Copyright © 2022 Ankara Hukuk Düşünce Topluluğu</p>
+            <p class="mb-0">This web page created by&nbsp;<a href="https://hevalnergiz.com">Heval Nergiz</a>&nbsp;for AHDT</p>
         </div>
     </footer>
     <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
@@ -194,6 +195,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
