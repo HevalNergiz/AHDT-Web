@@ -1,0 +1,89 @@
+.countdown div, .countdown2 div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  padding: 15px 0;
+  background: linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.15));
+  border-top: 5px solid #ce4109;
+  backdrop-filter: blur(1px);
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.06);
+  -webkit-backdrop-filter: blur(1px);
+  /*border-style: solid;*/
+  /*border-width: 1px;*/
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.countdown div h3, .countdown2 div h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.countdown div h4, .countdown2 div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  .countdown div, .countdown2 div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .countdown div h3, .countdown2 div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.countdown div:first-child, .countdown2 div:first-child {
+  margin-left: 0;
+}
+
+.ucusanresimlerindiv img {
+  border-radius: 1.5rem;
+  box-shadow: 0px 20px 30px rgba(0,0,0,0.16);
+}
+
+.carousel .carousel-inner .carousel-item .fotoludiv {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+}
+
+.featurescont .card {
+  background: linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.15));
+  backdrop-filter: blur(1px);
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.06);
+  -webkit-backdrop-filter: blur(1px);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+.featurescont .card svg {
+  color: #d5d5d5;
+}
+
+.sponsorlar img {
+  width: 7rem;
+  filter: grayscale(100%);
+}
+
+footer .container ul.list-inline svg {
+  font-size: 1.2rem;
+}
+
