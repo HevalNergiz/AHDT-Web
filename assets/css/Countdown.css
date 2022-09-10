@@ -170,3 +170,7 @@ body {
   overflow-x: hidden;
 }
 
+.etkinliklerrow a:hover {
+  text-decoration: underline;
+}
+
