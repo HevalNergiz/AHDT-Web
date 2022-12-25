@@ -174,3 +174,16 @@ body {
   text-decoration: underline;
 }
 
+.modal-buttons {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .modal-buttons .btn {
+    width: 100%;
+  }
+}
+
